@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.dashItem{
+    background-color: #e4e9f7;
+}
+.con{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.passman{
+    font-size: 25px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.bars:hover{
+    background-color: #695cfe;
+    cursor: pointer;
+}
+.link{
+    margin: 8px 10px;
+    border-radius: 6px;
+    display: flex;
+    color: #535353;
+    padding: 8px 15px 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.link:hover{
+    background:#695cfe;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: #cdcbe3;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
